@@ -4,37 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Les chats de l'ICAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-solid fa-jedi"></i>
     <header>
+      <nav>
+        <ul>
+          <li><a class="link" href="#siamois">Les siamois</a></li>
+          <li><a class="link" href="#sphinx">Les sphinx</a></li>
+          <li><a class="link" href="#persans">Les persans</a></li>
+        </ul>
+      </nav>
       <h1><u>Les chats de l'ICAN 😺</u></h1>
-
-      <section>
-        <h2>Sommaire</h2>
-        <ol>
-          <li><a href="#siamois">Les siamois</a></li>
-          <li><a href="#sphinx">Les sphinx</a></li>
-          <li><a href="#persans">Les persans</a></li>
-        </ol>
-      </section>
     </header>
 
     <main>
       <section>
         <h2 id="siamois">Les siamois 🐈</h2>
-        <img src="images/siamois.webp" alt="Un chat siamois" width="560px" />
-        <p>
-          <em>Lorem, ipsum dolor</em> sit amet consectetur adipisicing elit.
-          Quia, expedita. <b>Sint</b> alias, vitae magni repudiandae, quidem
-          esse modi consectetur nulla eos vero non error exercitationem id odit
-          laborum enim recusandae.
-        </p>
-
-        <a href="https://fr.wikipedia.org/wiki/Siamois_(chat)" target="_blank">
+        <div class="cat-box">
+          <img src="images/siamois.webp" alt="Un chat siamois" width="560px" />
+          <p id="p1">
+            <em>Lorem, ipsum dolor</em> sit amet consectetur adipisicing elit.
+            Quia, expedita. <b>Sint</b> alias, vitae magni repudiandae, quidem
+            esse modi consectetur nulla eos vero non error exercitationem id
+            odit laborum enim recusandae.
+          </p>
+        </div>
+        <a
+          href="https://fr.wikipedia.org/wiki/Siamois_(chat)"
+          target="_blank"
+          class="btn"
+        >
           En savoir plus
         </a>
       </section>
+      <hr />
 
       <section>
         <h2 id="sphinx">Les sphinx</h2>
@@ -49,6 +56,7 @@
           enim recusandae.
         </p>
       </section>
+      <hr />
 
       <section>
         <h2 id="persans">Les persans</h2>
@@ -60,9 +68,14 @@
         </p>
       </section>
     </main>
+    <hr />
 
     <footer>
-      <a href="about.html">À propos</a>
+      <a href="about.html" class="btn">À propos</a>
     </footer>
+
+    <!-- <div class="test-1">
+      <div class="test-2"></div>
+    </div> -->
   </body>
 </html>
