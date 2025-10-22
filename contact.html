@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les chats de l'ICAN</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-solid fa-jedi"></i> -->
+    <header>
+      <nav>
+        <ul>
+          <li><a class="link" href="index.html">Accueil</a></li>
+          <li><a class="link" href="index.html#siamois">Les siamois</a></li>
+          <li><a class="link" href="index.html#sphinx">Les sphinx</a></li>
+          <li><a class="link" href="index.html#persans">Les persans</a></li>
+          <li><a class="link" href="about.html">À propos</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1><u>Les chats de l'ICAN 😺</u></h1>
+    </header>
+
+    <main>
+      <form method="get">
+        <label for="firstName">Prénom</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firtName"
+          placeholder="Votre prénom"
+          required
+        />
+
+        <label for="lastName">Nom</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Votre nom"
+          required
+        />
+
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Votre adresse e-mail"
+          required
+          pattern="[\w-\.]+@([\w-]+\.)+[\w-]{2,4}"
+        />
+
+        <select name="country" id="country">
+          <option value="France">France</option>
+          <option value="Angleterre">Angleterre</option>
+          <option value="Allemagne" selected>Allemagne</option>
+          <option value="Italie">Italie</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          rows="5"
+          cols="70"
+          required
+          minlength="15"
+          maxlength="500"
+        ></textarea>
+
+        <input type="submit" value="OK" />
+      </form>
+    </main>
+  </body>
+</html>
