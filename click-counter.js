@@ -1,5 +1,3 @@
-// console.log("Script chargé !");
-
 let countLabel = document.getElementById('count-label')
 let clickBtn = document.querySelector('#click-btn')
 

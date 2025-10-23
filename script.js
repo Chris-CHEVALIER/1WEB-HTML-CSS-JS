@@ -1,9 +1,4 @@
-console.log(document)
 let siamoisTitle = document.getElementById('siamois')
-console.log(siamoisTitle)
-
-/* let h2Titles = document.querySelectorAll("h2")
-console.log(h2Titles); */
 
 siamoisTitle.textContent = 'Les super siamois ! 😺'
 siamoisTitle.style.backgroundColor = 'dodgerblue'
@@ -17,12 +12,10 @@ newImg.src =
   'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg' // <img src="..." />
 newImg.alt = 'Un lion 🦁' // <img src="..." alt="Un lion 🦁" />
 
-console.log(newH2, newImg)
-
 newSection.appendChild(newH2)
 newSection.appendChild(newImg)
 
-let main = document.querySelector("main")
+let main = document.querySelector('main')
 main.appendChild(newSection)
 
 /* newSection.removeChild(newH2)
